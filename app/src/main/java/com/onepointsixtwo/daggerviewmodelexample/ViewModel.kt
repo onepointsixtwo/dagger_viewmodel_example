@@ -1,6 +1,6 @@
 package com.onepointsixtwo.daggerviewmodelexample
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import javax.inject.Inject
 
 

@@ -2,8 +2,8 @@ package com.onepointsixtwo.daggerviewmodelexample
 
 import android.app.Activity
 import android.app.Application
-import android.arch.lifecycle.ViewModelProvider
 import android.os.Bundle
+import androidx.lifecycle.ViewModelProvider
 import com.dagger_view_model.ViewModelInjectors
 
 

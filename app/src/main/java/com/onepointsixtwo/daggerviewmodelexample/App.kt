@@ -21,7 +21,7 @@ class App: Application(), Application.ActivityLifecycleCallbacks {
         registerActivityLifecycleCallbacks(this)
     }
 
-    override fun onActivityCreated(p0: Activity?, p1: Bundle?) {
+    override fun onActivityCreated(p0: Activity, p1: Bundle?) {
         ViewModelInjectors.inject(p0, viewModelFactory)
     }
 
